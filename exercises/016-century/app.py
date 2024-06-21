@@ -1,7 +1,9 @@
 # Complete the function to return the respective number of the century
+import math as mt
 def century(year):
-  return None
+  century_int = mt.ceil(year/100)
+  return century_int
 
 
 # Invoke the function with any given year
-print(century())
+print(century(205))
